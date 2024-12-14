@@ -16,76 +16,31 @@
             margin-top: 5px;
             border-radius: 4px;
         }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .iframe-container {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center">
-
-    <iframe 
-    src= " " 
-    width="200" 
-    height="400" 
-    style="border: none;" 
-
-    title="Healing Test Portal">
-</iframe>
-
-
-
-    <div class="max-w-md bg-white shadow-lg rounded-xl overflow-hidden">
-        <div class="bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-center">
-            <img src="Images/Image1.avif" alt="Company Logo" class="h-12 w-auto mb-4">
-            <h1 class="text-2xl font-bold text-white">Healing Test Portal</h1>
-        </div>
-        <form 
-            action="/your-signin-endpoint" 
-            method="post" 
-            class="p-6 space-y-4"
-            id="loginForm"
-        >
-            <div>
-                <label for="username" class="block text-sm font-medium text-gray-700 mb-2">
-                    Username
-                </label>
-                <input 
-                
-                    type="text" 
-                    id="username" 
-                    name="username" 
-                    placeholder="Enter your username" 
-                    required
-                    class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                <div id="usernameValidation" class="validation-message">
-                    Username must be at least 3 characters long
-                </div>
-            </div>
-            <div>
-                <label for="password" class="block text-sm font-medium text-gray-700 mb-2">
-                    Password
-                </label>
-                <input 
-                    type="password" 
-                    id="password" 
-                    name="password" 
-                    placeholder="Enter your password" 
-                    required
-                    class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                <div id="passwordValidation" class="validation-message">
-                    Password must be at least 6 characters long
-                </div>
-            </div>
-            <button 
-                type="submit" 
-                class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-2 px-4 rounded-md hover:opacity-90 transition-all duration-300"
-            >
-                Login
-            </button>
-        </form>
-        <div class="px-6 py-4 bg-gray-100 text-center text-sm text-gray-600">
-            © 2024 Healing Test Portal. All rights reserved.
-        </div>
+    <!-- Iframe Container -->
+    <div class="iframe-container">
+        <iframe 
+            src="https://satyamraii.github.io/satyamraiii.github.io/" 
+            title="Healing Test Portal">
+        </iframe>
     </div>
-
 </body>
 </html>
