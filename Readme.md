@@ -10,7 +10,7 @@ This is a simple demo website created for demonstration purposes. It showcases b
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/Advinsteve/Advinsteve.github.io.git`
+1. Clone the repository: `[git clone https://github.com/Advinsteve/Advinsteve.github.io.git](https://github.com/satyamraii/satyamraiii.github.io.git)`
 2. Open `index.html` in your web browser.
 3. Explore the website and its features.
 
