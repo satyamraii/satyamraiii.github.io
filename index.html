@@ -88,7 +88,7 @@
                     </label>
                     <input 
                         type="password" 
-                        id="password" 
+                        id="password1" 
                         name="password" 
                         placeholder="Enter your password" 
                         required
@@ -150,7 +150,7 @@
             }
 
             // Password validation
-            const password = document.getElementById('password1');
+            const password = document.getElementById('password');
             if (password.value.length < 6) {
                 e.preventDefault();
                 passwordValidation.style.display = 'block';
